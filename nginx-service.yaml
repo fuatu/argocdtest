@@ -11,6 +11,8 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 8000
+    nodePort: 32080
+  type: NodePort
   selector:
     run: nginx
 status:
