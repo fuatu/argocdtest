@@ -5,12 +5,10 @@ metadata:
   labels:
     run: nginx
   name: nginx
-  namespace: nginx
 spec:
   containers:
-  - image: nginx
+  - image: docker.io/nginx:latest
     name: nginx
     resources: {}
-  dnsPolicy: ClusterFirst
-  restartPolicy: Always
-status: {}
+#  imagePullSecrets:
+#    - name: ddsregistry
