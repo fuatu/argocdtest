@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   labels:
     run: nginx
+    test: testme
   name: nginx
 spec:
   containers:
