@@ -10,7 +10,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-#    nodePort: 32080
+    nodePort: 32080
   type: LoadBalancer
   selector:
     run: nginx
