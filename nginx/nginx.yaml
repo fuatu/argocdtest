@@ -6,8 +6,8 @@ metadata:
     test: testme5
   name: nginx
 spec:
-    nodeSelector:
-      beta.kubernetes.io/os: linux
+  nodeSelector:
+    beta.kubernetes.io/os: linux
   containers:
   - image: ddscontainerregistry.azurecr.io/nginx:latest
     name: nginx
