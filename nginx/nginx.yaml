@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   labels:
     run: nginx
-    test: testme7
+    test: testme0
   name: nginx
 spec:
   nodeSelector:
