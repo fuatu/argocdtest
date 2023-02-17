@@ -6,6 +6,8 @@ metadata:
     test: testme2
   name: nginx
 spec:
+  nodeSelector:
+    kubernetes.io/hostname: aks-default2-27036348-vmss00000c
   containers:
   - image: ddscontainerregistry.azurecr.io/nginx:latest
     name: nginx
