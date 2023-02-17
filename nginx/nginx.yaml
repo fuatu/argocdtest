@@ -7,7 +7,7 @@ metadata:
   name: nginx
 spec:
   containers:
-  - image: ddscontainerregistry.azurecr.io/nginx:latest
+  - image: docker.io/nginx:latest
     name: nginx
     resources: {}
 #  imagePullSecrets:
