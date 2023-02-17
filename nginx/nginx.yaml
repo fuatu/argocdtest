@@ -7,10 +7,8 @@ metadata:
   name: nginx
 spec:
   nodeSelector:
-    beta.kubernetes.io/os: linux
+    kubernetes.io/os: linux
   containers:
   - image: docker.io/nginx:latest
     name: nginx
     resources: {}
-#  imagePullSecrets:
-#    - name: ddsregistry
