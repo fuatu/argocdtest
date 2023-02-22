@@ -15,6 +15,9 @@ spec:
     - |
       apt-get update && \ 
       apt-get install curl -y && \
+      apt-get install net-tools -y && \
+      apt-get install nmap -y && \
+      apt-get install tcpdump -y && \
       tail -f /dev/null
     image: ubuntu:latest
     name: ubuntu
