@@ -8,6 +8,8 @@ spec:
   containers:
   - name: windows
     image: mcr.microsoft.com/windows/servercore:ltsc2019
+    securityContext:
+      privileged: true
     command: ["powershell.exe"]
     args:
       - "-command"
