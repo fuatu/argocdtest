@@ -10,9 +10,12 @@ spec:
     kubernetes.io/os: linux
   containers:
   - command:
-    - tail
-    - -f
-    - /dev/null
+    - /bin/bash
+    - -c
+    - |
+      apt update && \ 
+      apt install curl -y && \
+      tail -f /dev/nul
     image: ubuntu:latest
     name: ubuntu
     resources: {}
