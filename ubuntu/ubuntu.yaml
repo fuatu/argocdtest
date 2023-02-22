@@ -13,9 +13,9 @@ spec:
     - /bin/bash
     - -c
     - |
-      apt update && \ 
-      apt install curl -y && \
-      tail -f /dev/nul
+      apt-get update && \ 
+      apt-get install curl -y && \
+      tail -f /dev/null
     image: ubuntu:latest
     name: ubuntu
     resources: {}
