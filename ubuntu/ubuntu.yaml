@@ -19,6 +19,7 @@ spec:
       apt-get install nmap -y && \
       apt-get install tcpdump -y && \
       apt-get install netcat -y && \
+      apt-get install vim -y && \
       sleep 36000
     image: ubuntu:latest
     name: ubuntu
