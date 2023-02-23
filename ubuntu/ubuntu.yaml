@@ -18,7 +18,7 @@ spec:
       apt-get install net-tools -y && \
       apt-get install nmap -y && \
       apt-get install tcpdump -y && \
-      apt-get install netcat -y && \
+      apt-get install netcat dnsutils -y && \
       apt-get install vim -y && \
       sleep 36000
     image: ubuntu:latest
