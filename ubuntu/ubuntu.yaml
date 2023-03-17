@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: ubuntu
-    app: test3
+    app: test4
   name: ubuntu
 spec:
   nodeSelector:
